@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/start"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="Bottles History" />
+        <item
+            android:id="@+id/nav_account_edit"
+            android:icon="@drawable/account"
+            android:title="Account" />
+    </group>
+
+    <item android:title="Connections">
+        <menu>
+            <item
+                android:id="@+id/nav_connect_bluetooth"
+                android:icon="@drawable/bluetooth2"
+                android:title="Connect via bluetooth" />
+            <item
+                android:id="@+id/nav_connect_wifi"
+                android:icon="@drawable/wifi"
+                android:title="Connect via Wifi" />
+        </menu>
+    </item>
+
+</menu>
