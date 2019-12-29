@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JSrou\\.gradle\\caches\\transforms-2\\files-2.1\\5cb40cc90d802721c02b615750a86ad1\\jetified-navigation-ui-2.0.0\\res\\values-eu\\values-eu.xml",

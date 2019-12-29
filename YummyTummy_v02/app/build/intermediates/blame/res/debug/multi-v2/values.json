@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JSrou\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values\\values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "17,5,6,1,27,9,8,10,20,19,24,23,21,22,16,15,14,13,12,3,4,2,11,7",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -56,25 +56,6 @@
                         "endLines": "7355",
                         "endColumns": "24",
                         "endOffsets": "459525"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "29,49,12,71,66,73,31",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "1151,1925,414,2814,2663,2906,1197",
-                        "endLines": "29,64,27,71,69,73,47",
-                        "endColumns": "44,12,12,90,12,80,12",
-                        "endOffsets": "1191,2657,1145,2900,2808,2982,1919"
-                    },
-                    "to": {
-                        "startLines": "222,903,935,951,952,956,2825",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "11445,60631,62506,63242,63332,63482,184683",
-                        "endLines": "222,918,950,951,955,956,2841",
-                        "endColumns": "44,12,12,89,12,79,12",
-                        "endOffsets": "11485,61363,63237,63327,63477,63557,185405"
                     }
                 },
                 {
@@ -114,7 +95,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\src\\main\\res\\values\\drawables.xml",
+                    "source": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\values\\drawables.xml",
                     "from": {
                         "startLines": "1,2,4,6,5,3",
                         "startColumns": "4,4,4,4,4,4",
@@ -147,6 +128,23 @@
                         "endLines": "17,235,236,237,238,411,412,413,984,2818,2821,2824,5487",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "886,12506,12568,12630,12694,24366,24423,24477,65422,184424,184550,184678,352493"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,10,9,8,5,7,6,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "90,149,562,511,452,264,388,328,206",
+                        "endColumns": "57,55,41,49,57,62,62,58,56",
+                        "endOffsets": "143,200,599,556,505,322,446,382,258"
+                    },
+                    "to": {
+                        "startLines": "406,407,470,651,652,668,669,670,671",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "24026,24084,28153,40078,40128,41164,41227,41290,41349",
+                        "endColumns": "57,55,41,49,57,62,62,58,56",
+                        "endOffsets": "24079,24135,28190,40123,40181,41222,41285,41344,41401"
                     }
                 },
                 {
@@ -296,6 +294,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "29,49,12,71,66,73,31",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1151,1925,414,2814,2663,2906,1197",
+                        "endLines": "29,64,27,71,69,73,47",
+                        "endColumns": "44,12,12,90,12,80,12",
+                        "endOffsets": "1191,2657,1145,2900,2808,2982,1919"
+                    },
+                    "to": {
+                        "startLines": "222,903,935,951,952,956,2825",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "11445,60631,62506,63242,63332,63482,184683",
+                        "endLines": "222,918,950,951,955,956,2841",
+                        "endColumns": "44,12,12,89,12,79,12",
+                        "endOffsets": "11485,61363,63237,63327,63477,63557,185405"
+                    }
+                },
+                {
                     "source": "C:\\Users\\JSrou\\.gradle\\caches\\transforms-2\\files-2.1\\558ef7e038f53eb5b82941e28370bfd1\\recyclerview-1.1.0-rc01\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -350,23 +367,6 @@
                         "endLines": "304,305,414,415,416,417,418,419,420,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,734,735,748,749,750,751,752,753,754,755,756,757,763,791,899,3279,3283,3285,3291,3293,3822,3823,5734,5997,6029,6074,6081",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "17104,17167,24547,24615,24687,24757,24818,24892,24965,40242,40303,40365,40429,40491,40552,40620,40720,40780,40846,40919,40988,41045,41097,41159,42733,42809,42874,42933,42992,43052,43112,43172,43232,43292,43352,43412,43472,43532,43592,43651,43711,43771,43831,43891,43951,44011,44071,44131,44191,44251,44310,44370,44430,44489,44548,44607,44666,44725,44784,45211,45246,45905,45968,46023,46081,46138,46188,46249,46306,46340,46375,46655,48314,60458,217184,217385,217561,217945,218140,255896,255963,365470,386394,388459,390549,390926"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3,10,9,8,5,7,6,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "90,149,562,511,452,264,388,328,206",
-                        "endColumns": "57,55,41,49,57,62,62,58,56",
-                        "endOffsets": "143,200,599,556,505,322,446,382,258"
-                    },
-                    "to": {
-                        "startLines": "406,407,470,651,652,668,669,670,671",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "24026,24084,28153,40078,40128,41164,41227,41290,41349",
-                        "endColumns": "57,55,41,49,57,62,62,58,56",
-                        "endOffsets": "24079,24135,28190,40123,40181,41222,41285,41344,41401"
                     }
                 }
             ]

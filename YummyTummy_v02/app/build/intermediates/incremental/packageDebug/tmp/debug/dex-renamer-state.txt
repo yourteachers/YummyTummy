@@ -1,4 +1,4 @@
-#Tue Dec 17 13:54:56 IST 2019
-base.0=C\:\\Users\\JSrou\\Desktop\\YummyTummy_v02\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Mon Dec 23 20:09:18 IST 2019
+base.0=C\:\\Users\\JSrou\\Desktop\\ArduinoProject\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

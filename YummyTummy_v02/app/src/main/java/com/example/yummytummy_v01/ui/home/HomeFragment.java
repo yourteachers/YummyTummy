@@ -36,6 +36,7 @@ public class HomeFragment extends Fragment {
     final String OFF = "o";
     final String servo = "s";
     final String temp= "t";
+    final String activateMachine="f";
     Boolean flag =  false;
     BluetoothSPP bluetooth;
     TextView text;// pump status
@@ -127,7 +128,8 @@ public class HomeFragment extends Fragment {
         bluetooth.setOnDataReceivedListener(new BluetoothSPP.OnDataReceivedListener() {
             public void onDataReceived(byte[] data, String message) {
                 // Do something when data incoming
-                tempText.setText(" "+data.toString());
+                Toast.makeText(getActivity(), "recieved sometthing", Toast.LENGTH_SHORT).show();
+                tempText.setText(message);
             }
         });
 
@@ -158,7 +160,7 @@ public class HomeFragment extends Fragment {
                     public void onClick(View v) {
                         if (bluetooth.getServiceState() == STATE_CONNECTED) {
 
-                                bluetooth.send(servo, true);
+                                bluetooth.send(servo+'\r', true);
 
                                 text.setText("Servo activated");
 
@@ -175,7 +177,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 if (bluetooth.getServiceState() == STATE_CONNECTED) {
 
-                    bluetooth.send(temp, true);
+                    bluetooth.send(activateMachine, true);
 
 
 
