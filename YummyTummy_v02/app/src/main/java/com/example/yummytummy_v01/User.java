@@ -71,6 +71,33 @@ public class User {
     public String getEmail() {
         return email;
     }
+
+    public boolean addBottle(String water,String scoops,String childName){
+        java.util.Date date = new java.util.Date();
+        Timestamp param = new Timestamp(date.getTime());
+        BottleHistory bottle = new BottleHistory(this.UID,Integer.parseInt(water),Integer.parseInt(scoops),childName,param);
+        Connection con = connectionClass.establish_Connection();
+        try {
+            if (con == null) {
+                //Toast.makeText(this, "Connection problem", Toast.LENGTH_SHORT).show();
+            }
+            else{
+                String user_query = "INSERT INTO [dbo].[BottlesHistory] (UID, water, scoops, childName, date) " +
+                        "VALUES ('"+bottle.getUID()+"', '"+bottle.getWaterAmount()+"', '"+bottle.getScoops()+"', '"+ childName+"', '"+ param+"');";
+                Statement user_stat = con.createStatement();
+                user_stat.executeUpdate(user_query);
+                this.myList.add(bottle);
+                con.close();
+            }
+        }
+        catch (Exception e){
+            Log.e("error here:",e.getMessage());
+
+            return false;
+        }
+
+        return true;
+    }
     public static User createUser(String username){
         User user=null;
         Connection con = connectionClass.establish_Connection();

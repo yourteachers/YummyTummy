@@ -37,11 +37,18 @@ public class Connect extends Fragment {
     Button startNoHeat;
     TextInputEditText water;
     TextInputEditText scoops;
+    TextInputEditText child;
     TextInputLayout waterInputLayout;
+    TextInputLayout childInputLayout;
     TextInputLayout scoopsInputLayout;
     BluetoothSPP bluetooth;
     final String activateMachineNoHeat="fn";
     final String activateMachine="f";
+    User user;
+    Bundle args ;
+    String wAmount;
+    String sAmount;
+    String childName;
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         if(requestCode == BluetoothState.REQUEST_CONNECT_DEVICE) {
             if(resultCode == Activity.RESULT_OK) {
@@ -76,11 +83,15 @@ public class Connect extends Fragment {
         startNoHeat = root.findViewById(R.id.StartNoHeat);
         water = root.findViewById(R.id.Water);
         scoops = root.findViewById(R.id.Scoops);
+        child = root.findViewById(R.id.childName);
         waterInputLayout = root.findViewById(R.id.watertextInputLayout);
+        childInputLayout = root.findViewById(R.id.childtextInputLayout);
         scoopsInputLayout = root.findViewById(R.id.scoopstextInputLayout);
         bluetooth = new BluetoothSPP(getActivity());
-        //startAll.setEnabled(false);
-        //startNoHeat.setEnabled(false);
+        args= getActivity().getIntent().getExtras();
+        user= User.createUser(args.getString("USERNAME"));
+        startAll.setEnabled(false);
+        startNoHeat.setEnabled(false);
 
         bluetooth.setBluetoothStateListener(new BluetoothSPP.BluetoothStateListener() {
             public void onServiceStateChanged(int state) {
@@ -126,6 +137,10 @@ public class Connect extends Fragment {
             public void onDataReceived(byte[] data, String message) {
                 // Do something when data incoming
                 Toast.makeText(getActivity(), "recieved sometthing", Toast.LENGTH_SHORT).show();
+               //the machine responded with OK meaning it started the proccess of creating a bottle
+                if(message=="OK"){
+                    user.addBottle(wAmount,sAmount,childName);
+                }
                // tempText.setText(message);
             }
         });
@@ -153,11 +168,26 @@ public class Connect extends Fragment {
         startAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+               /* String waterAmount = water.getText().toString();
+                String scoopsAmount = scoops.getText().toString();
+                String name = child.getText().toString();
+
+                if(validate(waterAmount,scoopsAmount,name)){
+                    wAmount = waterAmount;
+                    sAmount = scoopsAmount;
+                    childName=name;
+                    user.addBottle(wAmount,sAmount,childName);
+                    Toast.makeText(getActivity(), "Bottle Added", Toast.LENGTH_LONG).show();
+                }*/
                 if (bluetooth.getServiceState() == STATE_CONNECTED) {
                     String waterAmount = water.getText().toString();
                     String scoopsAmount = scoops.getText().toString();
+                    String name = child.getText().toString();
 
-                    if(validate(waterAmount,scoopsAmount)){
+                    if(validate(waterAmount,scoopsAmount,name)){
+                        wAmount = waterAmount;
+                        sAmount = scoopsAmount;
+                        childName=name;
                         bluetooth.send(activateMachine+","+waterAmount+","+scoopsAmount, true);
                     }
 
@@ -176,8 +206,12 @@ public class Connect extends Fragment {
                 if (bluetooth.getServiceState() == STATE_CONNECTED) {
                     String waterAmount = water.getText().toString();
                     String scoopsAmount = scoops.getText().toString();
+                    String name = child.getText().toString();
 
-                    if(validate(waterAmount,scoopsAmount)){
+                    if(validate(waterAmount,scoopsAmount,name)){
+                        wAmount = waterAmount;
+                        sAmount = scoopsAmount;
+                        childName=name;
                         bluetooth.send(activateMachineNoHeat+","+waterAmount+","+scoopsAmount, true);
                     }
 
@@ -192,19 +226,27 @@ public class Connect extends Fragment {
         });
         return root;
     }
-    private boolean validate(String waterAmount,String scoopsAmount){
+    private boolean validate(String waterAmount,String scoopsAmount,String name){
         if(waterAmount.length()==0){
             waterInputLayout.setError("Enter amount of water between 100-500 mL");
             scoopsInputLayout.setError(null);
+            childInputLayout.setError(null);
             return false;
         }
         if(scoopsAmount.length()==0){
             scoopsInputLayout.setError("Enter amount of scoops between 1-4");
             waterInputLayout.setError(null);
+            childInputLayout.setError(null);
             return false;
         }
-        int wAmount = Integer.getInteger(waterAmount);
-        int sAmount = Integer.getInteger(scoopsAmount);
+        if(name.length()==0){
+            childInputLayout.setError("Enter a child name");
+            waterInputLayout.setError(null);
+            scoopsInputLayout.setError(null);
+            return false;
+        }
+        int wAmount = Integer.parseInt(waterAmount);
+        int sAmount = Integer.parseInt(scoopsAmount);
         if(wAmount>500 || wAmount<100){
             waterInputLayout.setError("Enter amount of water between 100-500 mL");
             scoopsInputLayout.setError(null);

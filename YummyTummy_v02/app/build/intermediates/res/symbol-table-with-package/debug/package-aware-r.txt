@@ -1574,6 +1574,8 @@ id center_vertical
 id chains
 id checkbox
 id checked
+id childName
+id childtextInputLayout
 id chip
 id chip1
 id chip2

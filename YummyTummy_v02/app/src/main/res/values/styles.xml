@@ -12,6 +12,9 @@
 
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#e57373</item>
+
+        <item name="colorPrimaryDark">#ef9a9a</item> <!--responsible for the color of the status bar on top which i had trouble figuring out how to change-->
+
         <item name="colorPrimaryVariant">#af4448</item>
         <item name="colorOnPrimary">#FFFFFF</item>
         <item name="colorSecondary">#ef9a9a</item>

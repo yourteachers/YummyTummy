@@ -1,4 +1,4 @@
-#Sun Dec 29 12:52:27 IST 2019
+#Sun Dec 29 15:18:37 IST 2019
 base.0=C\:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
