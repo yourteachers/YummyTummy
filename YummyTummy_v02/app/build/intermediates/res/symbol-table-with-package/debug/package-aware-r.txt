@@ -1485,15 +1485,21 @@ drawable wifi
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BTconnect
 id CTRL
 id FUNCTION
 id META
 id ON
 id SHIFT
 id SYM
+id Scoops
+id StartAll
+id StartNoHeat
 id Status
 id TOP_END
 id TOP_START
+id WIFIconnect
+id Water
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1729,6 +1735,7 @@ id rounded
 id save_non_transition_alpha
 id save_overlay_view
 id scale
+id scoopstextInputLayout
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1822,6 +1829,7 @@ id usernameEditText
 id usernametextInputLayout
 id view_offset_helper
 id visible
+id watertextInputLayout
 id withText
 id wrap
 id wrap_content

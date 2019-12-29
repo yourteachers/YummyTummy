@@ -27,12 +27,12 @@
     <fragment
         android:id="@+id/nav_connect_bluetooth"
         android:name="com.example.yummytummy_v01.Connect"
-        android:label="@string/menu_share"
+        android:label="Bluetooth"
         tools:layout="@layout/connect_fragment" />
 
     <fragment
         android:id="@+id/nav_connect_wifi"
         android:name="com.example.yummytummy_v01.WifiConnection"
-        android:label="@string/menu_send"
+        android:label="Wifi"
         tools:layout="@layout/wifi_connection_fragment" />
 </navigation>
