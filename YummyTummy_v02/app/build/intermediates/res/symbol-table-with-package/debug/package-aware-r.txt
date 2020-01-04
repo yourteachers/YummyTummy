@@ -1414,6 +1414,8 @@ drawable abc_vector_test
 drawable account
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgroundbottle
+drawable bg
 drawable bluetooth
 drawable bluetooth2
 drawable btn_checkbox_checked_mtrl
@@ -1430,6 +1432,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit
+drawable edit2
 drawable history
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1476,12 +1480,16 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable side_nav_bar
+drawable signout
 drawable start
 drawable temporarylogo
 drawable test_custom_background
+drawable title
+drawable title2
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable wifi
+drawable wrench
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1498,7 +1506,6 @@ id StartNoHeat
 id Status
 id TOP_END
 id TOP_START
-id WIFIconnect
 id Water
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1613,6 +1620,7 @@ id direct
 id disableHome
 id drawer_layout
 id dropdown_menu
+id edit
 id edit_query
 id emailEditText
 id emailtextInputLayout
@@ -1647,6 +1655,7 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -1698,8 +1707,8 @@ id mtrl_picker_title_text
 id multiply
 id nav_account_edit
 id nav_connect_bluetooth
-id nav_connect_wifi
 id nav_controller_view_tag
+id nav_debug
 id nav_history
 id nav_home
 id nav_host_fragment
@@ -1736,6 +1745,7 @@ id right_side
 id rounded
 id save_non_transition_alpha
 id save_overlay_view
+id savechanges
 id scale
 id scoopstextInputLayout
 id screen
@@ -1761,7 +1771,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signup
 id skipCollapsed
 id slide
 id smallLabel
@@ -1896,7 +1905,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout account_edit_fragment
-layout activity_main
 layout activity_main2
 layout activity_main_log_in
 layout activity_sign_up
@@ -1905,6 +1913,7 @@ layout bottles_history_fragment
 layout connect_fragment
 layout content_main2
 layout custom_dialog
+layout debug_fragment
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1983,7 +1992,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout wifi_connection_fragment
 menu activity_main2_drawer
 menu main2
 mipmap ic_launcher

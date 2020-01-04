@@ -4,45 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/bg"
+    tools:context=".Debug">
 
     <TextView
         android:id="@+id/Status"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Pump Status: Off"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/ON"
+        app:layout_constraintStart_toStartOf="@+id/ON"
+        app:layout_constraintTop_toBottomOf="@+id/ON" />
 
     <Button
         android:id="@+id/ON"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:width="100dp"
-        android:text="On/Off"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        android:text="Pump On/Off"
+        app:layout_constraintEnd_toEndOf="@+id/servoOn"
+        app:layout_constraintStart_toStartOf="@+id/servoOn"
+        app:layout_constraintTop_toBottomOf="@+id/servoOn" />
 
     <Button
         android:id="@+id/connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="37dp"
         android:layout_marginRight="37dp"
         android:width="0dp"
         android:text="Connect"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,18 +49,35 @@
         android:id="@+id/servoOn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         android:width="0dp"
-        android:text="test Query"
-        app:layout_constraintBottom_toTopOf="@+id/ON"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="SERVO ON/OFF"
+        app:layout_constraintEnd_toEndOf="@+id/connect"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/connect"
         app:layout_constraintTop_toBottomOf="@+id/connect" />
+
+    <TextView
+        android:id="@+id/tempText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="temprature recieved :"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/tempBut"
+        app:layout_constraintStart_toStartOf="@+id/tempBut"
+        app:layout_constraintTop_toBottomOf="@+id/tempBut" />
+
+    <Button
+        android:id="@+id/tempBut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:width="100dp"
+        android:text="Activate"
+        app:layout_constraintEnd_toEndOf="@+id/Status"
+        app:layout_constraintStart_toStartOf="@+id/Status"
+        app:layout_constraintTop_toBottomOf="@+id/Status" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -77,6 +93,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Status" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

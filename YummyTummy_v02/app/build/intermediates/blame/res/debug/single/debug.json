@@ -344,6 +344,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\text_view_with_line_height_from_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -420,12 +424,12 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_text_input_date.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -442,6 +446,10 @@
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\layout_debug_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\layout\\debug_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_fast_out_slow_in.xml.flat",
@@ -508,10 +516,6 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -522,6 +526,10 @@
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\anim_nav_default_exit_anim.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0e2f66c2feb35e80aa83b2666e9a5661\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wrench.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\wrench.png"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",
@@ -1468,10 +1476,6 @@
         "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\menu\\main2.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\layout_wifi_connection_fragment.xml.flat",
-        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\layout\\wifi_connection_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
     },
@@ -1716,6 +1720,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgroundbottle.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\backgroundbottle.png"
+    },
+    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -1852,12 +1860,16 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day_selected.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\test_mtrl_calendar_day_selected.xml"
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signout.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\signout.png"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day_selected.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\test_mtrl_calendar_day_selected.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1926,6 +1938,10 @@
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_title2.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\title2.png"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -2116,6 +2132,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_tabs_default_indicator.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\mtrl_tabs_default_indicator.xml"
     },
@@ -2254,6 +2274,10 @@
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_surface_color.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_chip_surface_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit2.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\edit2.png"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
@@ -2530,6 +2554,10 @@
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_ripple_color.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_title.png.flat",
+        "source": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\src\\main\\res\\drawable\\title.png"
     },
     {
         "merged": "C:\\Users\\Admin\\IdeaProjects\\YummyTummy\\YummyTummy_v02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",

@@ -64,6 +64,10 @@ public class User {
         return myList;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public void setMyList(ArrayList<BottleHistory> myList) {
         this.myList = myList;
     }

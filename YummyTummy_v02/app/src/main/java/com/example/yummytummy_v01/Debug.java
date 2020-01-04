@@ -12,24 +12,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class WifiConnection extends Fragment {
+public class Debug extends Fragment {
 
-    private WifiConnectionViewModel mViewModel;
+    private DebugViewModel mViewModel;
 
-    public static WifiConnection newInstance() {
-        return new WifiConnection();
+    public static Debug newInstance() {
+        return new Debug();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.wifi_connection_fragment, container, false);
+        return inflater.inflate(R.layout.debug_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(WifiConnectionViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(DebugViewModel.class);
         // TODO: Use the ViewModel
     }
 

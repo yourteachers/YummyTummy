@@ -25,9 +25,9 @@
                 android:icon="@drawable/bluetooth2"
                 android:title="Connect via bluetooth" />
             <item
-                android:id="@+id/nav_connect_wifi"
-                android:icon="@drawable/wifi"
-                android:title="Connect via Wifi" />
+                android:id="@+id/nav_debug"
+                android:icon="@drawable/wrench"
+                android:title="Debug" />
         </menu>
     </item>
 

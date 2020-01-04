@@ -73,7 +73,7 @@ public class Main2Activity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_history,
-                R.id.nav_account_edit, R.id.nav_connect_bluetooth, R.id.nav_connect_wifi)
+                R.id.nav_account_edit, R.id.nav_connect_bluetooth, R.id.nav_debug)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -91,7 +91,13 @@ public class Main2Activity extends AppCompatActivity {
         else{
             Toast.makeText(getApplicationContext(), "problem retrieving user data", Toast.LENGTH_SHORT).show();
         }
-
+         fab.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(getApplicationContext(),MainLogInActivity.class);
+                 startActivity(intent);
+             }
+         });
 
 
     }

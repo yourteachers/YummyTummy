@@ -31,8 +31,8 @@
         tools:layout="@layout/connect_fragment" />
 
     <fragment
-        android:id="@+id/nav_connect_wifi"
-        android:name="com.example.yummytummy_v01.WifiConnection"
-        android:label="Wifi"
-        tools:layout="@layout/wifi_connection_fragment" />
+        android:id="@+id/nav_debug"
+        android:name="com.example.yummytummy_v01.Debug"
+        android:label="Debug"
+        tools:layout="@layout/debug_fragment" />
 </navigation>

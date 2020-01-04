@@ -3,6 +3,7 @@ package com.example.yummytummy_v01;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -61,42 +62,53 @@ public class BottlesHistory extends Fragment {
         Toast.makeText(getActivity(), name, Toast.LENGTH_LONG).show();
 
         if (user != null) {
+            ArrayList<BottleHistory> bottles = user.getMyList();
+            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
             TableRow.LayoutParams params = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT,
                     TableRow.LayoutParams.WRAP_CONTENT, 1f);
             TableLayout stk = (TableLayout) root.findViewById(R.id.table_main);
             TableRow tbrow0 = new TableRow(getActivity());
             TextView tv0 = new TextView(getActivity());
             tv0.setText(" Child name");
+            tv0.setTypeface(tv0.getTypeface(), Typeface.BOLD);
             tv0.setTextColor(Color.parseColor("#000000"));
+            tv0.setGravity(Gravity.CENTER);
             tv0.setLayoutParams(params);
             tbrow0.addView(tv0);
             TextView tv1 = new TextView(getActivity());
             tv1.setText(" Water in mL");
+            tv1.setTypeface(tv0.getTypeface(), Typeface.BOLD);
             tv1.setTextColor(Color.parseColor("#000000"));
+            tv1.setGravity(Gravity.CENTER);
             tv1.setLayoutParams(params);
             tbrow0.addView(tv1);
             TextView tv2 = new TextView(getActivity());
             tv2.setText(" Scoops ");
+            tv2.setTypeface(tv0.getTypeface(), Typeface.BOLD);
             tv2.setTextColor(Color.parseColor("#000000"));
+            tv2.setGravity(Gravity.CENTER);
             tv2.setLayoutParams(params);
             tbrow0.addView(tv2);
             TextView tv3 = new TextView(getActivity());
             tv3.setText(" Date/time ");
+            tv3.setTypeface(tv0.getTypeface(), Typeface.BOLD);
             tv3.setTextColor(Color.parseColor("#000000"));
+            tv3.setGravity(Gravity.CENTER);
             tv3.setLayoutParams(params);
             tbrow0.addView(tv3);
             stk.addView(tbrow0);
 
-            ArrayList<BottleHistory> bottles = user.getMyList();
-            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+
             for (int i = 0; i < bottles.size(); i++) {
                // Toast.makeText(getActivity(), "bottle #"+i+": "+bottles.get(i).getScoops()+" "+bottles.get(i).getSonName()+" "+bottles.get(i).getWaterAmount()+" "+bottles.get(i).getPreperationDate().toString(), Toast.LENGTH_LONG).show();
+
 
                 TableRow tbrow = new TableRow(getActivity());
                 TextView t1v = new TextView(getActivity());
                 t1v.setText(bottles.get(i).getSonName());
                 t1v.setTextColor(Color.parseColor("#000000"));
                 t1v.setGravity(Gravity.CENTER);
+
                 t1v.setLayoutParams(params);
                 tbrow.addView(t1v);
                 TextView t2v = new TextView(getActivity());

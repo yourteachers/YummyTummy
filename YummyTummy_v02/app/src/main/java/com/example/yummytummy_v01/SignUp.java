@@ -4,17 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
-import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,7 +21,6 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -66,7 +61,7 @@ public class SignUp extends AppCompatActivity implements DatePickerDialog.OnDate
         confirmpasswordInputLayout=findViewById(R.id.confirmPasswordtextInputLayout);
 
         signInLink=findViewById(R.id.link_signin);
-        signUp_btn=findViewById(R.id.signup);
+        signUp_btn=findViewById(R.id.savechanges);
         year=null;
         day=null;
         month=null;
