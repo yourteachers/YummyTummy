@@ -1647,6 +1647,7 @@ id group_divider
 id groups
 id header_email
 id header_name
+id heatBut
 id hideable
 id home
 id homeAsUp
@@ -1710,7 +1711,6 @@ id nav_connect_bluetooth
 id nav_controller_view_tag
 id nav_debug
 id nav_history
-id nav_home
 id nav_host_fragment
 id nav_view
 id navigation_header_container

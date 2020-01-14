@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_connect_bluetooth">
+
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.yummytummy_v01.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/nav_connect_bluetooth"
+        android:name="com.example.yummytummy_v01.Connect"
+        android:label="Home"
+        tools:layout="@layout/connect_fragment" />
 
     <fragment
         android:id="@+id/nav_history"
@@ -24,11 +24,7 @@
         android:label="Account"
         tools:layout="@layout/account_edit_fragment" />
 
-    <fragment
-        android:id="@+id/nav_connect_bluetooth"
-        android:name="com.example.yummytummy_v01.Connect"
-        android:label="Bluetooth"
-        tools:layout="@layout/connect_fragment" />
+
 
     <fragment
         android:id="@+id/nav_debug"

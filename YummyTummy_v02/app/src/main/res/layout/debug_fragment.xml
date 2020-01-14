@@ -11,12 +11,16 @@
         android:id="@+id/Status"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
         android:layout_marginTop="24dp"
-        android:text="Pump Status: Off"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text="Status:"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/ON"
-        app:layout_constraintStart_toStartOf="@+id/ON"
-        app:layout_constraintTop_toBottomOf="@+id/ON" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heatBut" />
 
     <Button
         android:id="@+id/ON"
@@ -62,7 +66,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="temprature recieved :"
+        android:text="Temperature received:"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/tempBut"
         app:layout_constraintStart_toStartOf="@+id/tempBut"
@@ -72,12 +76,28 @@
         android:id="@+id/tempBut"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:width="100dp"
+        android:text="TEMPRATURE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Status" />
+
+    <Button
+        android:id="@+id/heatBut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:width="100dp"
-        android:text="Activate"
-        app:layout_constraintEnd_toEndOf="@+id/Status"
-        app:layout_constraintStart_toStartOf="@+id/Status"
-        app:layout_constraintTop_toBottomOf="@+id/Status" />
+        android:text="HEATER ON/OFF"
+        app:layout_constraintEnd_toEndOf="@+id/ON"
+        app:layout_constraintStart_toStartOf="@+id/ON"
+        app:layout_constraintTop_toBottomOf="@+id/ON" />
 
     <ProgressBar
         android:id="@+id/progressBar"

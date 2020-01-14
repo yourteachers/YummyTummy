@@ -71,8 +71,7 @@ public class Main2Activity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_history,
+        mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_history,
                 R.id.nav_account_edit, R.id.nav_connect_bluetooth, R.id.nav_debug)
                 .setDrawerLayout(drawer)
                 .build();
@@ -86,7 +85,7 @@ public class Main2Activity extends AppCompatActivity {
         if(user!=null){
             header_name.setText(user.getUsername());
             header_email.setText(user.getEmail());
-            Toast.makeText(getApplicationContext(), user.getMyList().size()+"", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(), user.getMyList().size()+"", Toast.LENGTH_SHORT).show();
         }
         else{
             Toast.makeText(getApplicationContext(), "problem retrieving user data", Toast.LENGTH_SHORT).show();

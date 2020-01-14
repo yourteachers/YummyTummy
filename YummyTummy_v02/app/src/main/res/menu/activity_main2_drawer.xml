@@ -5,9 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/start"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_connect_bluetooth"
+            android:icon="@drawable/bluetooth2"
+            android:title="Home" />
+
         <item
             android:id="@+id/nav_history"
             android:icon="@drawable/history"
@@ -18,12 +19,8 @@
             android:title="Account" />
     </group>
 
-    <item android:title="Connections">
+    <item android:title="Debugging">
         <menu>
-            <item
-                android:id="@+id/nav_connect_bluetooth"
-                android:icon="@drawable/bluetooth2"
-                android:title="Connect via bluetooth" />
             <item
                 android:id="@+id/nav_debug"
                 android:icon="@drawable/wrench"

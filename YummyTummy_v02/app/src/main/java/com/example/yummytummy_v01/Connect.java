@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -41,9 +42,11 @@ public class Connect extends Fragment {
     TextInputLayout waterInputLayout;
     TextInputLayout childInputLayout;
     TextInputLayout scoopsInputLayout;
+    TextView status;
     BluetoothSPP bluetooth;
-    final String activateMachineNoHeat="fn";
-    final String activateMachine="f";
+    final String activateMachineNoHeat="1";
+    final String activateMachine="2";
+    final double waterperSec=(450/60);
     User user;
     Bundle args ;
     String wAmount;
@@ -87,6 +90,7 @@ public class Connect extends Fragment {
         waterInputLayout = root.findViewById(R.id.watertextInputLayout);
         childInputLayout = root.findViewById(R.id.childtextInputLayout);
         scoopsInputLayout = root.findViewById(R.id.scoopstextInputLayout);
+        status = root.findViewById(R.id.Status);
         bluetooth = new BluetoothSPP(getActivity());
         args= getActivity().getIntent().getExtras();
         user= User.createUser(args.getString("USERNAME"));
@@ -138,9 +142,12 @@ public class Connect extends Fragment {
                 // Do something when data incoming
                 Toast.makeText(getActivity(), "recieved sometthing", Toast.LENGTH_SHORT).show();
                //the machine responded with OK meaning it started the proccess of creating a bottle
-                if(message=="OK"){
+                if(message.contains("OK")){
                     user.addBottle(wAmount,sAmount,childName);
+
                 }
+
+                    status.setText("Status: "+message);
                // tempText.setText(message);
             }
         });
@@ -180,7 +187,10 @@ public class Connect extends Fragment {
                     Toast.makeText(getActivity(), "Bottle Added", Toast.LENGTH_LONG).show();
                 }*/
                 if (bluetooth.getServiceState() == STATE_CONNECTED) {
+
                     String waterAmount = water.getText().toString();
+                    double tmp=((Double.parseDouble(waterAmount))/waterperSec)*1000;
+                    int time = (int)tmp;
                     String scoopsAmount = scoops.getText().toString();
                     String name = child.getText().toString();
 
@@ -188,7 +198,8 @@ public class Connect extends Fragment {
                         wAmount = waterAmount;
                         sAmount = scoopsAmount;
                         childName=name;
-                        bluetooth.send(activateMachine+","+waterAmount+","+scoopsAmount, true);
+                        bluetooth.send(activateMachine+" "+time+" "+scoopsAmount, true);
+                        Toast.makeText(getActivity(), "Sent: "+activateMachine+" "+time+" "+scoopsAmount, Toast.LENGTH_LONG).show();
                     }
 
 
@@ -205,6 +216,8 @@ public class Connect extends Fragment {
             public void onClick(View v) {
                 if (bluetooth.getServiceState() == STATE_CONNECTED) {
                     String waterAmount = water.getText().toString();
+                    double tmp=((Double.parseDouble(waterAmount))/waterperSec)*1000;
+                    int time = (int)tmp;
                     String scoopsAmount = scoops.getText().toString();
                     String name = child.getText().toString();
 
@@ -212,7 +225,8 @@ public class Connect extends Fragment {
                         wAmount = waterAmount;
                         sAmount = scoopsAmount;
                         childName=name;
-                        bluetooth.send(activateMachineNoHeat+","+waterAmount+","+scoopsAmount, true);
+                        bluetooth.send(activateMachineNoHeat+" "+time+" "+scoopsAmount, true);
+                        Toast.makeText(getActivity(), "Sent: "+activateMachineNoHeat+" "+time+" "+scoopsAmount, Toast.LENGTH_LONG).show();
                     }
 
 
