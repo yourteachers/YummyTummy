@@ -113,7 +113,7 @@ MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\JSrou\.gradle\caches\tr
 	android:label
 		ADDED from C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:15:9-43
 	android:icon
 		ADDED from C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:13:9-38
 	android:allowBackup

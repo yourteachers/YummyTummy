@@ -40,8 +40,8 @@
 24-->C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:13:9-38
 25        android:label="@string/app_name"
 25-->C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:14:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:15:9-54
+26        android:roundIcon="@drawable/logo"
+26-->C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:15:9-43
 27        android:supportsRtl="true"
 27-->C:\Users\JSrou\Desktop\ArduinoProject\YummyTummy\YummyTummy\YummyTummy_v02\app\src\main\AndroidManifest.xml:16:9-35
 28        android:testOnly="true"
